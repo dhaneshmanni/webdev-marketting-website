@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow - Boost Your Productivity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FocusFlow</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Master Your Time with FocusFlow</h1>
+        <p>The ultimate productivity app to streamline your workflow and achieve more.</p>
+        <button class="cta-button" onclick="scrollToSection('features')">Get Started</button>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <h3>Task Management</h3>
+                <p>Organize tasks with smart prioritization and deadlines.</p>
+            </div>
+            <div class="feature">
+                <h3>Time Tracking</h3>
+                <p>Monitor your productivity with detailed analytics.</p>
+            </div>
+            <div class="feature">
+                <h3>Collaboration</h3>
+                <p>Share projects and collaborate in real-time.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-grid">
+            <div class="plan">
+                <h3>Free</h3>
+                <p>$0/month</p>
+                <ul>
+                    <li>Basic task management</li>
+                    <li>Limited time tracking</li>
+                </ul>
+                <button>Sign Up</button>
+            </div>
+            <div class="plan popular">
+                <h3>Pro</h3>
+                <p>$9.99/month</p>
+                <ul>
+                    <li>All features</li>
+                    <li>Advanced analytics</li>
+                    <li>Team collaboration</li>
+                </ul>
+                <button>Choose Pro</button>
+            </div>
+            <div class="plan">
+                <h3>Enterprise</h3>
+                <p>Contact for pricing</p>
+                <ul>
+                    <li>Custom integrations</li>
+                    <li>Priority support</li>
+                </ul>
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <input type="email" id="newsletter-email" placeholder="Enter your email">
+            <button onclick="subscribeNewsletter()">Subscribe</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FocusFlow. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
